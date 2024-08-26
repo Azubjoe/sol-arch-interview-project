@@ -61,3 +61,9 @@ variable "ssh_location" {
     description = "allowed ip address to the bastion host"
     type        = string
 }
+
+# s3 variables
+variable "env_file_bucket_name" {
+    description = "s3 bucket name "
+    type        = string
+}
